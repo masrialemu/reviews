@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    overflow: hidden;
+}
+
+.main h1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.main .p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.main .pp{
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.List{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    width: 65%;
+    border: 2px solid black;
+    height: 70vh;
+}
+.list img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.list .pic{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+.list .nm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.list .nm h3{
+    padding: 3px;
+}
+.list .info{
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    overflow-y: hidden;
+}
+.info p{
+    width: 500px;
+}
+.list .icon{
+    display: flex;
+    justify-content: center;
+    
+}
+.icon h1{
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+    transform: scale(1);
+    transition: 0.7s;
+   
+}
+.icon h1:hover{
+    color: brown;
+    transform: scale(1.05);
+}
+.ran{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+
+}
+.ran button{
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+.ran button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
